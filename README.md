@@ -1,7 +1,9 @@
 *******
 
-OPERACIONES LOGICAS:
-PSEUDOCODIGO.-
+#OPERACIONES LOGICAS:
+
+###PSEUDOCODIGO.-
+
 1- inicio
 2- brindar opciones de operación
 3- ¿leer datos:?
@@ -11,7 +13,7 @@ PSEUDOCODIGO.-
 4- mostrar resultado
 5- fiN
 
-DIAGRAMA DE FLUJO:
+###DIAGRAMA DE FLUJO:
 
 ![sin titulo](http://i68.tinypic.com/24w4obo.jpg)
 

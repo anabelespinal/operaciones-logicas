@@ -4,14 +4,14 @@
 
 ###PSEUDOCODIGO.-
 
-*1- inicio
-*2- brindar opciones de operación
-*3- ¿leer datos:?
-    *3.1- opción escogida
-    *3.2- opción no válida
-         *3.2.a- volver a 2
-*4- mostrar resultado
-*5- fiN
+_1_ inicio  
+_2_ brindar opciones de operación       
+_3_ ¿leer datos:?   
+    _3.1_ opción escogida    
+    _3.2_ opción no válida      
+         _3.2.a_ volver a 2      
+_4_ mostrar resultado    
+_5_ fin
 
 ###DIAGRAMA DE FLUJO:
 

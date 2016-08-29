@@ -9,40 +9,30 @@ var opcion = parseInt(prompt("ESCOGA UNA OPCIÓN:\n"+
     "8- menor o igual que (a<=b)\n"+
     "9- mayor o igual que (a>=b)\n"+
     ("POR FAVOR INDIQUE EL NÚMERO DE LA OPCIÓN")));
+var numero1 = parseInt(prompt("Inserte el primer número: "));
+var numero2 = parseInt(prompt("Inserte el segundo número: "));
 switch (opcion) {
      case 1:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var suma = numero1 + numero2;
         window.alert("El resultado de la suma es: " + suma);
     break;
     case 2:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var resta = numero1 - numero2;
         window.alert("El resultado de la resta es: " + resta);
     break;
     case 3:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var multiplicacion = numero1 * numero2;
         window.alert("El resultado de la multiplicaión es: " + multiplicacion);
     break;
      case 4:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var division = numero1 / numero2;
         window.alert("El resultado de la división es: " + division);
     break;
     case 5:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var resto = numero1 % numero2;
         window.alert("El resultado del resto es: " + resto);
     break;
     case 6:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var menorque = numero1 < numero2;
         if (menorque) {
             window.alert(numero1 + " MENOR QUE " + numero2);
@@ -51,8 +41,6 @@ switch (opcion) {
         }
     break;
     case 7:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var mayorque = numero1 > numero2;
         if (mayorque) {
             window.alert(numero1 + " MAYOR QUE " + numero2);
@@ -61,8 +49,6 @@ switch (opcion) {
         }
     break;
     case 8:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var menorigualque = numero1 <= numero2;
         if (menorigualque) {
             window.alert(numero1 + "<= " + numero2);
@@ -71,8 +57,6 @@ switch (opcion) {
         }
     break;
     case 9:
-        var numero1 = parseInt(prompt("Inserte el primer número: "));
-        var numero2 = parseInt(prompt("Inserte el segundo número: "));
         var mayorigualque = numero1 >= numero2;
         if (mayorigualque) {
             window.alert(numero1 + ">= " + numero2);
